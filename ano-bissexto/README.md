@@ -15,3 +15,9 @@ Não são bissextos por exemplo:
 1951
 2011
 Escreva uma função que determina se um determinado ano informado é bissexto ou não.
+
+# Uso
+
+'''
+./ano_bissexto.php <ano>
+'''
