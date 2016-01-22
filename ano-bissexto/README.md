@@ -18,6 +18,6 @@ Escreva uma função que determina se um determinado ano informado é bissexto o
 
 # Uso
 
-'''
+```bash
 ./ano_bissexto.php <ano>
-'''
+```
