@@ -1,5 +1,8 @@
 <?php
 
 spl_autoload_register(function ($class_name) {
-    include $class_name . '.php';
+	$file = $class_name . '.php';
+	if (file_exists($file)) {
+		include $class_name . '.php';
+	}
 });
