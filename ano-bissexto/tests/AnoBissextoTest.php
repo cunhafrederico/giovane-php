@@ -1,12 +1,13 @@
 <?php
 class AnoBissextoTest extends PHPUnit_Framework_TestCase
 {
-    // Criando um primeiro teste que passa
+    // Testa os anos que devem ser bissextos
+    // "São bissextos por exemplo: 1600 1732 1888 1944 2008"
 
-    public function testTest()
+    public function testSuccess()
     {
-        $one = 1;
-        $this->assertEquals(1, $one);
+        
+        $this->assertTrue(AnoBissexto::_ehBissexto(1600));
     }
 
 }
