@@ -76,7 +76,9 @@ class EfeitoMagnetico {
 
 		foreach ($this->pontos as $ponto) {
 			$dist = $this->calculaDistancia($this->cursor['x'], $this->cursor['y'], $ponto['x'], $ponto['y']);
-
+			// XXX: E se tiverem dois ou mais pontos com a mesma distância?
+			//		Seria interessante calcular os vetores e decidir o ponto, que poderia ser o mesmo do cursor
+			//		caso as forças se anulassem [giovane 2016-01-22]
 			if ($dist < $menor_dist){
 				$menor_dist = $dist;
 				$closer = $ponto;
