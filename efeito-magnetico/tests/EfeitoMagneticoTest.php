@@ -3,11 +3,11 @@
 class EfeitoMagneticoTest extends PHPUnit_Framework_TestCase
 {
 
-	// Fazendo teste que passa
+	// Exemplos que devem passar
 
-	public function testTest()
+	public function testSucesso()
 	{
-		$one = 1;
-		$this->assertEquals(1, $one);
+		$em = new EfeitoMagnetico('50:50', '5', '49:50');
+		$this->assertEquals($em->calculaPonto(), array('x' => 50, 'y' => 50));
 	}
 }
