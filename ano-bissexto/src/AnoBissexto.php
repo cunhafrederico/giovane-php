@@ -21,7 +21,7 @@ class AnoBissexto {
 
 	}
 
-	public static _ehBissexto($ano = false)
+	public static function _ehBissexto($ano = false)
 	{
 
 		if ($ano === false) {
