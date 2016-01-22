@@ -6,7 +6,7 @@ class AnoBissexto {
 	{
 		try {
 
-			if ($this::_ehBissexto($ano)) {
+			if (self::_ehBissexto($ano)) {
 				$mensagem = 'é um ano bissexto';	
 			} else {
 				$mensagem = 'não é um ano bissexto';	
