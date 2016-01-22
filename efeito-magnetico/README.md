@@ -8,3 +8,15 @@ Alguns exemplos:
 * Se os pontos magnéticos são (50, 50) e (51, 51) e o mouse está em (51, 52), o desenho se inicia em (51, 51)
 
 Implemente este efeito magnético, informando a localização dos pontos magnéticos, o raio do efeito magnético e o ponto onde o cursor se encontra no momento. COm esses dados, seu programa deverá informar qual o ponto onde o desenho irá começar realmente.
+
+# Uso
+
+```bash
+./efeito_magnetico.php <pontos> <raio> <cursor>
+```
+
+### Exemplo:
+
+```bash
+./efeito_magnetico.php 50:50,51:51 5 51:52
+```
